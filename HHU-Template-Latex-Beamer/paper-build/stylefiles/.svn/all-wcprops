@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/cn/!svn/ver/44417/trunk/software/paper-build/stylefiles
+END
+sig-alternate.cls
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cn/!svn/ver/33829/trunk/software/paper-build/stylefiles/sig-alternate.cls
+END
+svlnicst.clo
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cn/!svn/ver/44417/trunk/software/paper-build/stylefiles/svlnicst.clo
+END
+sprmindx.sty
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cn/!svn/ver/44417/trunk/software/paper-build/stylefiles/sprmindx.sty
+END
+IEEEtran.bst
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cn/!svn/ver/33827/trunk/software/paper-build/stylefiles/IEEEtran.bst
+END
+svmultln.cls
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cn/!svn/ver/44417/trunk/software/paper-build/stylefiles/svmultln.cls
+END
+acm_proc_article-sp.cls
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cn/!svn/ver/33829/trunk/software/paper-build/stylefiles/acm_proc_article-sp.cls
+END
+IEEEtran.cls
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cn/!svn/ver/33827/trunk/software/paper-build/stylefiles/IEEEtran.cls
+END

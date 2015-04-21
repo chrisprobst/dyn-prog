@@ -13,18 +13,18 @@ Chapter 2:
 
 Wichtigste Features:
 
-- Alles muss in Objekten sein (jede Methode etc.)
-- Syntaktisch stark an C/C++ angelehnt (Braces, etc.)
-- Reflexiv
-- Generics (Erasure)
-- Primitive Typen keine Objekte!!!
-- Native Sprachunterstuetzung fuer Multithreading (synchronized)
-- Sprachunterstuetzung fuer Serialisierung (transient)
-- Keine Mehrfachvererbung
-- Alle Funktionen sind virtuell
-- Funktionen sind ueberladbar
-- Seit 8: Lambdas (Oneliner fuer Interfaces mit einer Methode)
-- Nicht wirklich sprachlich: Sehr ausgefeilte Concurrency Libraries, gute Netzwerkimplmentierung, gigantische Community
+x - Alles muss in Objekten sein (jede Methode etc.)
+x - Syntaktisch stark an C/C++ angelehnt (Braces, etc.)
+x - Reflexiv
+x - Generics (Erasure)
+x - Primitive Typen keine Objekte!!!
+x - Native Sprachunterstuetzung fuer Multithreading (synchronized)
+x - Sprachunterstuetzung fuer Serialisierung (transient)
+x - Keine Mehrfachvererbung
+x - Alle Funktionen sind virtuell
+x - Funktionen sind ueberladbar
+x - Seit 8: Lambdas (Oneliner fuer Interfaces mit einer Methode)
+x - Nicht wirklich sprachlich: Sehr ausgefeilte Concurrency Libraries, gute      x Netzwerkimplmentierung, gigantische Community
 
 
 

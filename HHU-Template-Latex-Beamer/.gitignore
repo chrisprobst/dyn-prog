@@ -1,0 +1,8 @@
+*.pdf
+*.eps
+master.aux
+master.snm
+master.out
+master.log
+master.nav
+master.toc

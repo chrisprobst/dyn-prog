@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/cn/!svn/ver/53104/trunk/software/paper-build
+END
+cxcc-crossref.bib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/cn/!svn/ver/17362/trunk/software/paper-build/cxcc-crossref.bib
+END
+wdiff
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/cn/!svn/ver/18970/trunk/software/paper-build/wdiff
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/cn/!svn/ver/53104/trunk/software/paper-build/Rakefile
+END
+conferences-crossref-short.bib.old
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cn/!svn/ver/23444/trunk/software/paper-build/conferences-crossref-short.bib.old
+END
+conferences.bib
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/cn/!svn/ver/29585/trunk/software/paper-build/conferences.bib
+END
+rfc.bib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/cn/!svn/ver/48371/trunk/software/paper-build/rfc.bib
+END
+shortnames.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/cn/!svn/ver/16313/trunk/software/paper-build/shortnames.rb
+END
+journals.bib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/cn/!svn/ver/23434/trunk/software/paper-build/journals.bib
+END
+vanet.bib
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/cn/!svn/ver/38414/trunk/software/paper-build/vanet.bib
+END
+conferences-crossref.bib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cn/!svn/ver/52800/trunk/software/paper-build/conferences-crossref.bib
+END
+entrytype-templates.bib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cn/!svn/ver/44305/trunk/software/paper-build/entrytype-templates.bib
+END
+cxcc.bib
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/cn/!svn/ver/16313/trunk/software/paper-build/cxcc.bib
+END
+shortnames.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/cn/!svn/ver/16313/trunk/software/paper-build/shortnames.sh
+END

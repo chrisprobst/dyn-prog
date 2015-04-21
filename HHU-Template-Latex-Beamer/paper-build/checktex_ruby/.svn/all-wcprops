@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/cn/!svn/ver/21909/trunk/software/paper-build/checktex_ruby
+END
+exception_list
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cn/!svn/ver/17755/trunk/software/paper-build/checktex_ruby/exception_list
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cn/!svn/ver/16313/trunk/software/paper-build/checktex_ruby/README
+END
+avoid_list
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cn/!svn/ver/16313/trunk/software/paper-build/checktex_ruby/avoid_list
+END
+latex_checks
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cn/!svn/ver/17736/trunk/software/paper-build/checktex_ruby/latex_checks
+END
+checktex.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cn/!svn/ver/16313/trunk/software/paper-build/checktex_ruby/checktex.rb
+END
+spelling_conventions
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cn/!svn/ver/21909/trunk/software/paper-build/checktex_ruby/spelling_conventions
+END
+checktex.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cn/!svn/ver/16313/trunk/software/paper-build/checktex_ruby/checktex.sh
+END
+list_acronyms.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cn/!svn/ver/19568/trunk/software/paper-build/checktex_ruby/list_acronyms.rb
+END
