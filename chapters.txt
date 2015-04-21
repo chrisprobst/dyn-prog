@@ -1,0 +1,100 @@
+Chapter 1:
+
+Java (Wiki):
+- Seit: 1995
+- Sun, danach Oracle (2010)
+- Typiersung: stark (No implicit casting), statisch (Compile)
+- Cross platform
+- Paradigmen: Objektorientiert, imperativ, Seit 8 auch z.T. funktional
+
+
+
+Chapter 2:
+
+Wichtigste Features:
+
+- Alles muss in Objekten sein (jede Methode etc.)
+- Syntaktisch stark an C/C++ angelehnt
+- Reflexiv
+- Generics (Erasure)
+- Primitive Typen keine Objekte!!!
+- Native Sprachunterstuetzung fuer Multithreading (synchronized)
+- Sprachunterstuetzung fuer Serialisierung (transient)
+- Keine Mehrfachvererbung
+- Alle Funktionen sind virtuell
+- Funktionen sind ueberladbar
+- Seit 8: Lambdas (Oneliner fuer Interfaces mit einer Methode)
+- Nicht wirklich sprachlich: Sehr ausgefeilte Concurrency Libraries, gute Netzwerkimplmentierung, gigantische Community
+
+
+
+Chapter 3:
+
+Ist Java eine dynamische Sprache ?
+
+"The term dynamic programming language describes a class of
+programming languages that share a number of common runtime
+characteristics that are available in static languages only during
+compilation, if at all.[…]” 
+
+
+“[…]These behaviors can include the ability to extend the currently
+running program […] even by modifying the internals of the language
+itself, all during program execution. While these behaviors can be
+emulated in almost any language […] such behaviors are integral,
+built-in characteristics of dynamic languages
+
+- Java ist reflexsiv: Man kann zur Laufzeit auf alles per reflection (als Strings) zu greifen und auch aendern (z.B. trotz final).
+
+- Die JVM benutzt ByteCode, welcher zur Laufzeit veraendert werden kann.
+-- Javassist: Can create/modify/(delete?) Classes during runtime (Durch eigenen Compiler und eigenen ClassLoader)
+-- Zu Statement 2: Javassist + reflection is ugly as hell. Also nicht: "behaviors are integral, built-in characteristics of dynamic languages"
+
+• Interactive
+Ja, definitiv!! Es gibt eine Java REPL. (Ab Java 9 own repl)
+
+• Everything is an object
+No! Primitive are no objects:
+byte, bool, short, char, int, long, float, double
+Bad, because Generics do not work (currently) with primitives. 
+(For Java 9 and beyond: Project Valhalla, Project Panama)
+
+• Dynamic Typing
+Jain, kann simuliert werden, wenn immer Objekt verwendet wird.
+Streng genommen: Dynamische Sprache sind statische Sprachen mit nur einem Variablen Typ und dynamischem Methodloading.
+
+(Siehe Javabeispiel)
+
+• Most things changeable at run-time
+Jain, alles moeglich, aber eher frickelig. (Definitiv viel dynamischer als C/C++)
+
+• Reflection
+Ja!
+
+• “Late-Bound Everything”
+Falls ueberall Object verwendet wird, durchaus
+
+
+• Garbage Collected
+YES! Java besitzt eine Reihe von sehr leistungsfaehigen GCs.
+So ziemlich jede Implementierung danach, richtet sich nach der JVM.
+
+Python etc. haben immer Referencecounting (Ist zwar auch GC, aber kakke).
+
+
+• Interpreted
+- Java kompiliert nach Java Bytecode, eine Assembler aehnliche Sprache fuer eine stackbasierte virtuelle Maschine.
+
+Java war schon immer und ist z.T. immernoch interpretiert (AST/Bytecde).
+Also eine select (opcode) { xxx: dosomething };
+ABER: HotSpot (Oracle JVM) ist ein JIT (Just-in-time Compiler):
+Wenn der Javainterpreter merkt, Methoden ist echt teuer:
+-- Compile down to highly optimized native machine code.
+
+DEMO ?!
+
+
+
+
+
+
