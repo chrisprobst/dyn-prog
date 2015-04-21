@@ -1,34 +1,38 @@
 %!TEX root = master.tex
 
-\section{Language features}
+\section{\$ java -features}
 
 
 \begin{frame}
-  \frametitle{java.lang.Object}
+  \frametitle{\$ java -feature object-orientation}
 
   \begin{itemize}
     \item Java is object-oriented, so everything is/should be an object!
   \end{itemize}
-  \vspace{1cm}
+  \vspace{0.4cm}
   \begin{center}
-    \includegraphics[width=0.4\textwidth]{fig/objects}
+    \includegraphics[width=0.6\textwidth]{fig/objects}
   \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{java.lang.Object}
+  \frametitle{\$ java -feature object-orientation}
 
   \begin{itemize}
     \item Except byte, boolean, short, char, int, long, float, double
-    \vspace{1cm}
+    \vspace{0.4cm}
     \item They are primitive (of course...)
   \end{itemize}
+  \vspace{0.25cm}
+  \begin{center}
+    \includegraphics[width=0.6\textwidth]{fig/primitive}
+  \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{java.lang.generics.*}
+  \frametitle{\$ java -feature generics}
   Java has generics:
   \vspace{0.25cm}
   \begin{itemize}
@@ -42,25 +46,28 @@
 
 
 \begin{frame}
-  \frametitle{java.lang.generics.*}
+  \frametitle{\$ java -feature generics}
   Drawback: Only works with reference types =(
+  \vspace{0.25cm}
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{fig/primitives}    
+  \end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{java.lang.generics.*}
+  \frametitle{\$ java -feature generics}
 	\begin{center}
-	    \includegraphics[width=0.8\textwidth]{fig/primarray}    
+	    \includegraphics[width=1\textwidth]{fig/primarray}    
 	\end{center}
-
 	\begin{center}
-	    \includegraphics[width=0.5\textwidth]{fig/primitives}    
+	    \includegraphics[width=0.7\textwidth]{fig/donotusegenerics}    
 	\end{center}
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{java.lang.generics.*}
+  \frametitle{\$ java -feature generics}
  \begin{itemize}
     \item Might change with Java 9 (2016) or Java 10 (2018)
     \vspace{0.4cm}
@@ -70,7 +77,7 @@
 
 
 \begin{frame}
-  \frametitle{java.lang.*}
+  \frametitle{\$ java -minor-features}
 
  \begin{itemize}
     \item Code can only live in Classes
@@ -92,7 +99,7 @@
 
 
 \begin{frame}
-  \frametitle{java.util.*}
+  \frametitle{\$ java -minor-features}
 
  \begin{itemize}
     \item Well defined concurrency libraries, arguably the best ones out there
@@ -110,20 +117,24 @@
 
 
 \begin{frame}
-  \frametitle{java.lang.impl.HotSpot}
+  \frametitle{\$ java -feature hotspot}
   \begin{itemize}
     \item Oracle's reference implementation is the HotSpot JVM
     \vspace{0.3cm}
-    \item ByteCode interpreter
+    \item Byte code interpreter
     \vspace{0.3cm}    
-    \item JIT	(state-of-the-art, gets much better in Java 9)
+    \item Just-in-time compilation	(state-of-the-art, gets better in Java 9)
     \vspace{0.3cm}    
-    \item GC 	(state-of-the-art, even concurrent)    
+    \item Garbage-collection		(state-of-the-art, even concurrent)    
+    \vspace{0.3cm}    
+    \item Optimized for concurrency
+    \vspace{0.3cm}    
+    \item Other VMs: Dalvik, ART, RoboVM, Azul Systems, etc.
   \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{java.lang.impl.HotSpot}
+  \frametitle{\$ java -feature hotspot}
 
   Runtime characteristics:
   \vspace{0.25cm}    
@@ -140,7 +151,7 @@
     \vspace{0.3cm}
     \item Relatively high memory usage
     \vspace{0.3cm}
-    \item In some situations on-par with C/C++ (no flame-war intended)
+    \item Arguably on-par with C/C++ (no flame-war intended)
     \vspace{0.3cm}
     \item Conclusion: Perfect for long running, backend server applications
   \end{itemize}
